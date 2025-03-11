@@ -5,7 +5,7 @@ pipeline {
             steps {
                 //
                 sh 'echo This is build'
-                sh 'env'
+                //sh 'env'
             }
         }
         stage('Test') {
